@@ -10,13 +10,14 @@ body {
 .container {
     max-width: 1170px;
     margin: 0 auto;
+    overflow: hidden;
 }
 
-.clear {
+/* .clear {
     content: '';
     display: block;
     clear: both;
-}
+} */
 
 .text-center {
     text-align: center;
@@ -167,8 +168,8 @@ i.fas.fa-download {
 
 /* project section goes here */
 .project-section {
-    margin-top: 100px;
-    /* background: #E5E5E5; */
+    margin-top: 70px;
+    background: #E8EAF9;
 }
 
 .project-section .container > h2 {
@@ -183,7 +184,7 @@ i.fas.fa-download {
     width: 30%;
     box-shadow: 4px 6px 10px #ddd;
     margin-right: 39px;
-    margin-bottom: 220px;
+    margin-bottom: 150px;
 }
 
 .for-content-img:last-child {
@@ -214,6 +215,9 @@ i.fas.fa-download {
 
 /* project section end */
 /* working process goes here  */
+.working-process-section{
+    margin-top: 90px;
+}
 .working-process-section .row{
     
 }
